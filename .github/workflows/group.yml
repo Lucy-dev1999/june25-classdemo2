@@ -1,0 +1,9 @@
+name: Group workflows
+on: [push]
+jobs:
+  print: group_name
+  runs-on: ubuntu-latest
+  steps:
+    - name: Print group name
+      run: echo "This workflow is part of the group"
+    
