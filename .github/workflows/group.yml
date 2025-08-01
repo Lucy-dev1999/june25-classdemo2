@@ -4,6 +4,8 @@ jobs:
   print-group-name:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
       - name: Print group name
         run: echo "This workflow is part of the group"
     
