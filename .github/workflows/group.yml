@@ -31,4 +31,5 @@ jobs:
       - name: Run Pylint
         run: |
           source venv/bin/activate
-          pylint src tests
+          pylint june25_classdemo2
+          pylint tests
