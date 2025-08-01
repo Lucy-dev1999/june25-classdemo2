@@ -1,7 +1,7 @@
 name: Group workflows
 on: [push]
 jobs:
-  print: group_name
+  print group_name:
   runs-on: ubuntu-latest
   steps:
     - name: Print group name
