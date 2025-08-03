@@ -5,6 +5,7 @@ on: [push, pull_request]
 jobs:
   tests:
     runs-on: ubuntu-latest
+    needs: install
     env:
         VENV: venv
 
